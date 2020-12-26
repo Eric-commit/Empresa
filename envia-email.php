@@ -21,7 +21,11 @@ $mail->setFrom($mail->Username,"Eric");
 $mail->addAddress('ericgoncalves232@gmail.com');
 $mail->Subject = "GoncalSystem";  
 
-$conteudo = "teste ";
+$conteudo = "Você recebeu um pedido de $nome ($email):
+<br><br>
+Mensagem: <br>
+$mensagem 
+ ";
 
 $mail->IsHTML(true);
 $mail->Body = $conteudo;
