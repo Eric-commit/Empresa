@@ -1,0 +1,53 @@
+     * {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    text-decoration: none;
+                    font-size: 1.2rem;
+                    font-family: Arial;
+                }
+                
+                header {
+                    width: auto;
+                    overflow: hidden;
+                    position: relative;
+                }
+                
+                .botoes {
+                    display: flex;
+                }
+                
+                .barraprincipal {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 20px;
+                }
+                
+                .barraprincipal li {
+                    margin-left: 10px;
+                }
+                
+                .barraprincipal li a {
+                    padding-top: 0px;
+                    height: 100%;
+                    width: 100%;
+                    color: grey;
+                    text-decoration: none;
+                    
+                    display: inline;
+                    line-height: 15px;
+                    padding: 20px;
+                    font-size: 1rem;
+                    display: flex;
+                }
+                
+                #logo {
+                    margin-left: 15%;
+                    color: black;
+                }
+                
+                body {
+                    background-image: url("fundo.png");
+                }
