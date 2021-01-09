@@ -1,4 +1,4 @@
-       * {
+        * {
                     margin: 0;
                     padding: 0;
                     list-style: none;
@@ -57,10 +57,11 @@
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 25px;
-                    background-color: #FFE4C4;
+                    background-color: #FDF5E6;
                     border-radius: 25px;
                     padding: 73px;
                     text-align: left;
+                    animation: conteudo 2s;
                 }
                 
                 .conteudo2 {
@@ -68,10 +69,11 @@
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 35px;
-                    background-color: #FFE4C4;
+                    background-color: #FDF5E6;
                     border-radius: 25px;
                     padding: 73px;
                     text-align: left;
+                    animation: conteudo2 2s;
                 }
                 
                 .conteudo3 {
@@ -79,11 +81,12 @@
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 35px;
-                    background-color: #FFE4C4;
+                    background-color: #FDF5E6;
                     border-radius: 25px;
                     padding: 73px;
                     margin-bottom: 67px;
                     text-align: left;
+                    animation: conteudo3 2s;
                 }
                 
                 .sobrenos {
@@ -91,7 +94,7 @@
                     margin-left: auto;
                     margin-right: auto;
                     margin-top: 35px;
-                    background-color: #FFE4C4;
+                    background-color: #FDF5E6;
                     border-radius: 25px;
                     padding: 100px;
                     text-align: left;
@@ -107,6 +110,7 @@
                     padding: 73px;
                     margin-bottom: 67px;
                     text-align: center;
+                    animation: animaorc 2s;
                 }
                 
                 input {
@@ -124,4 +128,40 @@
                     border-left: 2px solid #323232;
                     border-right: 2px solid #323232;
                     border-top: 2px solid #323232;
+                }
+                
+                @keyframes animaorc {
+                    0% {
+                        transform: translatey(-600px);
+                    }
+                    100% {
+                        transform: translatey(calc(1vw - 10px));
+                    }
+                }
+                
+                @keyframes conteudo {
+                    0% {
+                        transform: translatex(-980px);
+                    }
+                    100% {
+                        transform: translatex(calc(vm - 5px));
+                    }
+                }
+                
+                @keyframes conteudo2 {
+                    0% {
+                        transform: translatex(980px);
+                    }
+                    100% {
+                        transform: translatex(calc(vm - 5px));
+                    }
+                }
+                
+                @keyframes conteudo3 {
+                    0% {
+                        transform: translatex(-980px);
+                    }
+                    100% {
+                        transform: translatex(calc(vm - 5px));
+                    }
                 }
