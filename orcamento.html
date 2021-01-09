@@ -1,39 +1,127 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <title>GoncalSystem | Orçamento</title>
-    <link rel="shortcut icon" href="logo.png">
-    <link rel="stylesheet" type="text/css" href="index.css">
-
-</head>
-
-<body>
-    <header class="barraprincipal">
-        <a href="index.html" id="logo"><img src="logo.png" width="300px"></a>
-        <nav>
-
-            <ul class="botoes">
-
-                <li><a href="sobrenos.html" class="links">Sobre Nós </a></li>
-                <li><a href="orcamento.html" class="links">Orçamento</a></li>
-
-            </ul>
-        </nav>
-
-    </header>
-
-    <div class="container">
-        <form>
-            <label>Informe seu email:</label><br>
-            <input type="email" name="email" placeholder="luisa.paula@gmail.com"> <br> <br>
-            <label>Informe seu nome/razão social:</label><br>
-            <input type="email" name="name"> <br><br>
-            <label>Digite sua mensagem:</label>
-            <textarea name="mensagem" placeholder="Digite sua mensagem e conte que tipo de site você deseja"></textarea>
-        </form>
-    </div>
-
-</body>
-
-</html>
+* {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    text-decoration: none;
+                    font-size: 20px;
+                    font-family: Arial;
+                    border: none;
+                }
+                
+                header {
+                    width: auto;
+                    overflow: hidden;
+                    position: relative;
+                }
+                
+                .botoes {
+                    display: flex;
+                }
+                
+                .barraprincipal {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 20px;
+                }
+                
+                .barraprincipal li {
+                    margin-left: 10px;
+                }
+                
+                .barraprincipal li a {
+                    padding-top: 0px;
+                    height: 100%;
+                    width: 100%;
+                    color: grey;
+                    text-decoration: none;
+                    display: inline;
+                    line-height: 15px;
+                    padding: 20px;
+                    font-size: 1rem;
+                    display: flex;
+                }
+                
+                #logo {
+                    margin-left: 15%;
+                    color: black;
+                }
+                
+                body {
+                    background-image: url("fundo.png");
+                }
+                
+                .conteudo {
+                    width: 850px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 25px;
+                    background-color: #FDF5E6;
+                    border-radius: 25px;
+                    padding: 73px;
+                    text-align: left;
+                }
+                
+                .conteudo2 {
+                    width: 850px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 35px;
+                    background-color: #FDF5E6;
+                    border-radius: 25px;
+                    padding: 73px;
+                    text-align: left;
+                }
+                
+                .conteudo3 {
+                    width: 850px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 35px;
+                    background-color: #FDF5E6;
+                    border-radius: 25px;
+                    padding: 73px;
+                    margin-bottom: 67px;
+                    text-align: left;
+                }
+                
+                .sobrenos {
+                    width: 850px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 35px;
+                    background-color: #FDF5E6;
+                    border-radius: 25px;
+                    padding: 100px;
+                    text-align: left;
+                }
+                
+                .container {
+                    width: 400px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 35px;
+                    background-color: #FDF5E6;
+                    border-radius: 25px;
+                    padding: 73px;
+                    margin-bottom: 67px;
+                    text-align: center;
+                }
+                
+                input {
+                    border-bottom: 2px solid #323232;
+                    width: 390px;
+                    padding-bottom: 10px;
+                    font-size: 1.rem;
+                }
+                
+                textarea {
+                    font-size: 1.rem;
+                    width: 390px;
+                    padding-bottom: 250px;
+                    border-bottom: 2px solid #323232;
+                    border-left: 2px solid #323232;
+                    border-right: 2px solid #323232;
+                    border-top: 2px solid #323232;
+                }
