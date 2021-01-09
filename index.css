@@ -135,7 +135,7 @@
                         transform: translatey(-600px);
                     }
                     100% {
-                        transform: translatey(calc(1vw - 10px));
+                        transform: translatey(calc(vw - 10px));
                     }
                 }
                 
