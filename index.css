@@ -1,4 +1,4 @@
-        * {
+          * {
                     margin: 0;
                     padding: 0;
                     list-style: none;
@@ -98,6 +98,7 @@
                     border-radius: 25px;
                     padding: 100px;
                     text-align: left;
+                    animation: animasobr 2s;
                 }
                 
                 .container {
@@ -163,5 +164,14 @@
                     }
                     100% {
                         transform: translatex(calc(vm - 5px));
+                    }
+                }
+                
+                @keyframes animasobr {
+                    0% {
+                        transform: translatey(600px);
+                    }
+                    100% {
+                        transform: translatey(calc(vw - 5px));
                     }
                 }
