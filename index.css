@@ -1,10 +1,11 @@
-        * {
+       * {
                     margin: 0;
                     padding: 0;
                     list-style: none;
                     text-decoration: none;
-                    font-size: 1.2rem;
+                    font-size: 20px;
                     font-family: Arial;
+                    border: none;
                 }
                 
                 header {
@@ -83,4 +84,44 @@
                     padding: 73px;
                     margin-bottom: 67px;
                     text-align: left;
+                }
+                
+                .sobrenos {
+                    width: 850px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 35px;
+                    background-color: #FFE4C4;
+                    border-radius: 25px;
+                    padding: 100px;
+                    text-align: left;
+                }
+                
+                .container {
+                    width: 400px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 35px;
+                    background-color: #FDF5E6;
+                    border-radius: 25px;
+                    padding: 73px;
+                    margin-bottom: 67px;
+                    text-align: center;
+                }
+                
+                input {
+                    border-bottom: 2px solid #323232;
+                    width: 390px;
+                    padding-bottom: 10px;
+                    font-size: 1.rem;
+                }
+                
+                textarea {
+                    font-size: 1.rem;
+                    width: 390px;
+                    padding-bottom: 250px;
+                    border-bottom: 2px solid #323232;
+                    border-left: 2px solid #323232;
+                    border-right: 2px solid #323232;
+                    border-top: 2px solid #323232;
                 }
