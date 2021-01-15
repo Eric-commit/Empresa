@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    border: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 225px;
+}
+
+.botoes {
+    text-align: center;
+}
+
+.barraprincipal li a {
+    font-size: 1.8rem;
+    color: grey;
+}
+
+.botoes-item {
+    display: inline-block;
+    width: 30%;
+    height: 130px;
+}
+
+.conteudo {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: #FDF5E6;
+    border-radius: 25px;
+    padding: 73px;
+    text-align: left;
+    animation: conteudo 2s;
+}
+
+.conteudo2 {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    background-color: #FDF5E6;
+    border-radius: 25px;
+    padding: 73px;
+    text-align: left;
+    animation: conteudo2 2s;
+}
+
+.conteudo3 {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    background-color: #FDF5E6;
+    border-radius: 25px;
+    padding: 73px;
+    margin-bottom: 67px;
+    text-align: left;
+    animation: conteudo3 2s;
+}
+
+.container {
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    background-color: #FDF5E6;
+    border-radius: 25px;
+    padding: 190px;
+    margin-bottom: 67px;
+    text-align: center;
+    animation: animaorc 2s;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    width: 450px;
+    padding: 30px;
+    padding-bottom: 10px;
+    font-size: 1.rem;
+}
+
+textarea {
+    font-size: 1.rem;
+    width: 390px;
+    padding: 60px;
+    padding-bottom: 250px;
+    border-bottom: 2px solid #323232;
+    border-left: 2px solid #323232;
+    border-right: 2px solid #323232;
+    border-top: 2px solid #323232;
+}
+
+@keyframes animaorc {
+    0% {
+        transform: translatey(-600px);
+    }
+    100% {
+        transform: translatey(calc(vw - 10px));
+    }
+}
+
+@keyframes conteudo {
+    0% {
+        transform: translatex(-980px);
+    }
+    100% {
+        transform: translatex(calc(vm - 5px));
+    }
+}
+
+@keyframes conteudo2 {
+    0% {
+        transform: translatex(980px);
+    }
+    100% {
+        transform: translatex(calc(vm - 5px));
+    }
+}
+
+@keyframes conteudo3 {
+    0% {
+        transform: translatex(-980px);
+    }
+    100% {
+        transform: translatex(calc(vm - 5px));
+    }
+}
+
+@keyframes animasobr {
+    0% {
+        transform: translatey(600px);
+    }
+    100% {
+        transform: translatey(calc(vw - 5px));
+    }
+}
