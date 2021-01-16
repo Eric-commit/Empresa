@@ -74,21 +74,21 @@ li {
 }
 
 .container {
-    width: 460px;
+    width: 660px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 35px;
     background-color: #FDF5E6;
     border-radius: 25px;
-    padding: 190px;
+    padding: 120px;
     margin-bottom: 67px;
     text-align: center;
     animation: animaorc 2s;
 }
 
-input {
+.input {
     border-bottom: 2px solid #323232;
-    width: 450px;
+    width: 650px;
     padding: 30px;
     padding-bottom: 10px;
     font-size: 1.rem;
@@ -96,13 +96,20 @@ input {
 
 textarea {
     font-size: 1.rem;
-    width: 390px;
+    width: 585px;
     padding: 60px;
     padding-bottom: 250px;
     border-bottom: 2px solid #323232;
     border-left: 2px solid #323232;
     border-right: 2px solid #323232;
     border-top: 2px solid #323232;
+}
+
+.submit{
+    margin-top: 20px;
+    width: 712px;
+    padding: 30px;
+
 }
 
 @keyframes animaorc {
