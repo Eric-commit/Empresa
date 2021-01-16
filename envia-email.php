@@ -14,12 +14,14 @@ $mail->Host = "smtp.gmail.com";
 $mail->Port = "587";
 $mail->SMTPSecure = "tls";
 $mail->SMTPAuth = "true";
-$mail->Username = "ericgoncalves232@gmail.com";
-$mail->Password = "03102.000";
+$mail->Username = "goncalsystem@gmail.com";
+$mail->Password = "Chevrolet@spin15";
 
-$mail->setFrom($mail->Username,"Eric");
-$mail->addAddress('ericgoncalves232@gmail.com');
-$mail->Subject = "GoncalSystem";  
+$mail->setFrom($mail->Username,"GoncalSystem");
+$mail->addAddress($email);
+$mail->addAddress('goncalsystem@gmail.com');
+
+$mail->Subject = "Orcamento recebido!";  
 
 $conteudo = "Você recebeu um pedido de $nome ($email):
 <br><br>
@@ -30,9 +32,10 @@ $mensagem
 $mail->IsHTML(true);
 $mail->Body = $conteudo;
 
+
 if ($mail-> send()){
 
-	echo "E-mail Enviado com sucesso!";
+
 }else {
 	echo "Falha ao enviar o e-mail: " . $mail->ErrorInfo;
 }
